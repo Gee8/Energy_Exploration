@@ -1,0 +1,92 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>20109789BillAmt</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="http://localhost:5006/static/extensions/panel/css/alerts.css" type="text/css" />
+        <link rel="stylesheet" href="http://localhost:5006/static/extensions/panel/css/card.css" type="text/css" />
+        <link rel="stylesheet" href="http://localhost:5006/static/extensions/panel/css/dataframe.css" type="text/css" />
+        <link rel="stylesheet" href="http://localhost:5006/static/extensions/panel/css/json.css" type="text/css" />
+        <link rel="stylesheet" href="http://localhost:5006/static/extensions/panel/css/loading.css" type="text/css" />
+        <link rel="stylesheet" href="http://localhost:5006/static/extensions/panel/css/markdown.css" type="text/css" />
+        <link rel="stylesheet" href="http://localhost:5006/static/extensions/panel/css/widgets.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="5f19d27b-469a-4b35-9d72-a0cf09a0073c" data-root-id="2232"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2392">
+          {"a4fefd00-6211-4c56-ac73-80ab83b63712":{"roots":{"references":[{"attributes":{},"id":"2244","type":"LinearScale"},{"attributes":{},"id":"2277","type":"BasicTickFormatter"},{"attributes":{"end":2650.891,"reset_end":2650.891,"reset_start":0.0,"tags":[[["Bill Amt","Bill Amt",null]]]},"id":"2235","type":"Range1d"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer02790","sizing_mode":"stretch_width"},"id":"2294","type":"Spacer"},{"attributes":{"axis_label":"Billing Month Year","bounds":"auto","formatter":{"id":"2275"},"major_label_orientation":"horizontal","ticker":{"id":"2247"}},"id":"2246","type":"CategoricalAxis"},{"attributes":{},"id":"2275","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"renderers":[{"id":"2272"}],"tags":["hv_created"],"tooltips":[["Billing Month Year","@{Billing_Month_Year}"],["Bill Amt","@{Bill_Amt}"],["Kwh Usage","@{Kwh_Usage}"]]},"id":"2236","type":"HoverTool"},{"attributes":{"source":{"id":"2266"}},"id":"2273","type":"CDSView"},{"attributes":{"axis_label":"Bill Amt","bounds":"auto","formatter":{"id":"2277"},"major_label_orientation":"horizontal","ticker":{"id":"2250"}},"id":"2249","type":"LinearAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#30a2da"},"line_alpha":{"value":0.1},"top":{"field":"Bill_Amt"},"width":{"value":0.8},"x":{"field":"Billing_Month_Year"}},"id":"2270","type":"VBar"},{"attributes":{"data_source":{"id":"2266"},"glyph":{"id":"2269"},"hover_glyph":null,"muted_glyph":{"id":"2271"},"nonselection_glyph":{"id":"2270"},"selection_glyph":null,"view":{"id":"2273"}},"id":"2272","type":"GlyphRenderer"},{"attributes":{},"id":"2250","type":"BasicTicker"},{"attributes":{"axis":{"id":"2249"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"2252","type":"Grid"},{"attributes":{"fill_color":{"value":"#30a2da"},"top":{"field":"Bill_Amt"},"width":{"value":0.8},"x":{"field":"Billing_Month_Year"}},"id":"2269","type":"VBar"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"2236"},{"id":"2253"},{"id":"2254"},{"id":"2255"},{"id":"2256"},{"id":"2257"}]},"id":"2259","type":"Toolbar"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"2258","type":"BoxAnnotation"},{"attributes":{},"id":"2267","type":"Selection"},{"attributes":{"factors":["Jul 2019","Aug 2019","Sep 2019","Oct 2019","Nov 2019","Dec 2019","Jan 2020","Feb 2020","Mar 2020","Apr 2020","May 2020","Jun 2020"],"tags":[[["Billing Month Year","Billing Month Year",null]]]},"id":"2234","type":"FactorRange"},{"attributes":{"data":{"Bill_Amt":{"__ndarray__":"UrgehWvLoEAK16NwPUajQEjhehQubaNAw/UoXI9+n0DNzMzMzCKQQBSuR+F6N5BAH4XrUbggjUCF61G4HjOQQPYoXI/C3Y5AcT0K16NcikDXo3A9CseQQJqZmZmZjpVA","dtype":"float64","order":"little","shape":[12]},"Billing_Month_Year":["Jul 2019","Aug 2019","Sep 2019","Oct 2019","Nov 2019","Dec 2019","Jan 2020","Feb 2020","Mar 2020","Apr 2020","May 2020","Jun 2020"],"Kwh_Usage":[10120,12147,12394,9332,6991,7874,6962,7510,6931,6372,6646,8298]},"selected":{"id":"2267"},"selection_policy":{"id":"2284"}},"id":"2266","type":"ColumnDataSource"},{"attributes":{"text":"Serv Acct Num: 20109789","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"2238","type":"Title"},{"attributes":{"children":[{"id":"2233"},{"id":"2237"},{"id":"2294"}],"margin":[0,0,0,0],"name":"Row02785","tags":["embedded"]},"id":"2232","type":"Row"},{"attributes":{"below":[{"id":"2246"}],"center":[{"id":"2248"},{"id":"2252"}],"left":[{"id":"2249"}],"margin":[5,5,5,5],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":300,"plot_width":700,"renderers":[{"id":"2272"}],"sizing_mode":"fixed","title":{"id":"2238"},"toolbar":{"id":"2259"},"x_range":{"id":"2234"},"x_scale":{"id":"2242"},"y_range":{"id":"2235"},"y_scale":{"id":"2244"}},"id":"2237","subtype":"Figure","type":"Plot"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#30a2da"},"line_alpha":{"value":0.2},"top":{"field":"Bill_Amt"},"width":{"value":0.8},"x":{"field":"Billing_Month_Year"}},"id":"2271","type":"VBar"},{"attributes":{},"id":"2253","type":"SaveTool"},{"attributes":{},"id":"2254","type":"PanTool"},{"attributes":{},"id":"2284","type":"UnionRenderers"},{"attributes":{},"id":"2255","type":"WheelZoomTool"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer02789","sizing_mode":"stretch_width"},"id":"2233","type":"Spacer"},{"attributes":{"overlay":{"id":"2258"}},"id":"2256","type":"BoxZoomTool"},{"attributes":{},"id":"2242","type":"CategoricalScale"},{"attributes":{},"id":"2257","type":"ResetTool"},{"attributes":{"axis":{"id":"2246"},"grid_line_color":null,"ticker":null},"id":"2248","type":"Grid"},{"attributes":{},"id":"2247","type":"CategoricalTicker"}],"root_ids":["2232"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2392').textContent;
+                  var render_items = [{"docid":"a4fefd00-6211-4c56-ac73-80ab83b63712","root_ids":["2232"],"roots":{"2232":"5f19d27b-469a-4b35-9d72-a0cf09a0073c"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

@@ -1,0 +1,92 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>16548872BillAmt</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="http://localhost:5006/static/extensions/panel/css/alerts.css" type="text/css" />
+        <link rel="stylesheet" href="http://localhost:5006/static/extensions/panel/css/card.css" type="text/css" />
+        <link rel="stylesheet" href="http://localhost:5006/static/extensions/panel/css/dataframe.css" type="text/css" />
+        <link rel="stylesheet" href="http://localhost:5006/static/extensions/panel/css/json.css" type="text/css" />
+        <link rel="stylesheet" href="http://localhost:5006/static/extensions/panel/css/loading.css" type="text/css" />
+        <link rel="stylesheet" href="http://localhost:5006/static/extensions/panel/css/markdown.css" type="text/css" />
+        <link rel="stylesheet" href="http://localhost:5006/static/extensions/panel/css/widgets.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="75965553-a1ad-4e37-b9dc-3fb0d8f4fcc1" data-root-id="1910"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2070">
+          {"286d4c53-4c1e-4ef0-9722-83f5cf38733b":{"roots":{"references":[{"attributes":{"source":{"id":"1944"}},"id":"1951","type":"CDSView"},{"attributes":{"children":[{"id":"1911"},{"id":"1915"},{"id":"1972"}],"margin":[0,0,0,0],"name":"Row02473","tags":["embedded"]},"id":"1910","type":"Row"},{"attributes":{},"id":"1945","type":"Selection"},{"attributes":{"text":"Serv Acct Num: 16548872","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"1916","type":"Title"},{"attributes":{"data_source":{"id":"1944"},"glyph":{"id":"1947"},"hover_glyph":null,"muted_glyph":{"id":"1949"},"nonselection_glyph":{"id":"1948"},"selection_glyph":null,"view":{"id":"1951"}},"id":"1950","type":"GlyphRenderer"},{"attributes":{},"id":"1931","type":"SaveTool"},{"attributes":{},"id":"1932","type":"PanTool"},{"attributes":{"below":[{"id":"1924"}],"center":[{"id":"1926"},{"id":"1930"}],"left":[{"id":"1927"}],"margin":[5,5,5,5],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":300,"plot_width":700,"renderers":[{"id":"1950"}],"sizing_mode":"fixed","title":{"id":"1916"},"toolbar":{"id":"1937"},"x_range":{"id":"1912"},"x_scale":{"id":"1920"},"y_range":{"id":"1913"},"y_scale":{"id":"1922"}},"id":"1915","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1935","type":"ResetTool"},{"attributes":{},"id":"1933","type":"WheelZoomTool"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer02477","sizing_mode":"stretch_width"},"id":"1911","type":"Spacer"},{"attributes":{"overlay":{"id":"1936"}},"id":"1934","type":"BoxZoomTool"},{"attributes":{},"id":"1920","type":"CategoricalScale"},{"attributes":{"axis":{"id":"1924"},"grid_line_color":null,"ticker":null},"id":"1926","type":"Grid"},{"attributes":{},"id":"1925","type":"CategoricalTicker"},{"attributes":{},"id":"1922","type":"LinearScale"},{"attributes":{},"id":"1955","type":"BasicTickFormatter"},{"attributes":{"end":7154.040999999999,"reset_end":7154.040999999999,"reset_start":0.0,"tags":[[["Bill Amt","Bill Amt",null]]]},"id":"1913","type":"Range1d"},{"attributes":{"axis_label":"Billing Month Year","bounds":"auto","formatter":{"id":"1953"},"major_label_orientation":"horizontal","ticker":{"id":"1925"}},"id":"1924","type":"CategoricalAxis"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer02478","sizing_mode":"stretch_width"},"id":"1972","type":"Spacer"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#30a2da"},"line_alpha":{"value":0.2},"top":{"field":"Bill_Amt"},"width":{"value":0.8},"x":{"field":"Billing_Month_Year"}},"id":"1949","type":"VBar"},{"attributes":{},"id":"1962","type":"UnionRenderers"},{"attributes":{},"id":"1953","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"renderers":[{"id":"1950"}],"tags":["hv_created"],"tooltips":[["Billing Month Year","@{Billing_Month_Year}"],["Bill Amt","@{Bill_Amt}"],["Kwh Usage","@{Kwh_Usage}"]]},"id":"1914","type":"HoverTool"},{"attributes":{"factors":["Jul 2019","Aug 2019","Sep 2019","Oct 2019","Nov 2019","Dec 2019","Jan 2020","Feb 2020","Mar 2020","Apr 2020","May 2020","Jun 2020"],"tags":[[["Billing Month Year","Billing Month Year",null]]]},"id":"1912","type":"FactorRange"},{"attributes":{"axis_label":"Bill Amt","bounds":"auto","formatter":{"id":"1955"},"major_label_orientation":"horizontal","ticker":{"id":"1928"}},"id":"1927","type":"LinearAxis"},{"attributes":{},"id":"1928","type":"BasicTicker"},{"attributes":{"axis":{"id":"1927"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"1930","type":"Grid"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1914"},{"id":"1931"},{"id":"1932"},{"id":"1933"},{"id":"1934"},{"id":"1935"}]},"id":"1937","type":"Toolbar"},{"attributes":{"fill_color":{"value":"#30a2da"},"top":{"field":"Bill_Amt"},"width":{"value":0.8},"x":{"field":"Billing_Month_Year"}},"id":"1947","type":"VBar"},{"attributes":{"data":{"Bill_Amt":{"__ndarray__":"w/UoXA8QskAfhetReEC4QI/C9Shc/blAKVyPwvV8uUAUrkfhet6lQJqZmZkZSaFAw/UoXA8uokBSuB6F6wCjQOxRuB4FvqFAj8L1KFzim0AzMzMzM7qZQOxRuB4FKKBA","dtype":"float64","order":"little","shape":[12]},"Billing_Month_Year":["Jul 2019","Aug 2019","Sep 2019","Oct 2019","Nov 2019","Dec 2019","Jan 2020","Feb 2020","Mar 2020","Apr 2020","May 2020","Jun 2020"],"Kwh_Usage":[18747,25013,28387,22696,15702,15640,15893,16643,15037,10910,10557,11744]},"selected":{"id":"1945"},"selection_policy":{"id":"1962"}},"id":"1944","type":"ColumnDataSource"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1936","type":"BoxAnnotation"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#30a2da"},"line_alpha":{"value":0.1},"top":{"field":"Bill_Amt"},"width":{"value":0.8},"x":{"field":"Billing_Month_Year"}},"id":"1948","type":"VBar"}],"root_ids":["1910"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2070').textContent;
+                  var render_items = [{"docid":"286d4c53-4c1e-4ef0-9722-83f5cf38733b","root_ids":["1910"],"roots":{"1910":"75965553-a1ad-4e37-b9dc-3fb0d8f4fcc1"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
