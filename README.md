@@ -30,8 +30,8 @@ Creating a new column of data, `Cost per Kwh` found by diving the `Bill Amt` col
 Throughout the data exploration, we have created three new csv files located in `Resources/csv_files`.
 
 - The `usage_df.csv`: 
-    - <img width="300" alt="usage_df" src="Resources\Images\usage_df_csv.PNG">
+    - <img width="600" alt="usage_df" src="Resources\Images\usage_df_csv.PNG">
 - The `monthly_bill_usage.csv`: 
-    - <img width="300" alt="usage_df" src="Resources\Images\monthly_bill_usage_csv.PNG">
+    - <img width="600" alt="usage_df" src="Resources\Images\monthly_bill_usage_csv.PNG">
 - The `high_low_bills.csv`: 
-    - <img width="300" alt="usage_df" src="Resources\Images\high_low_bills_csv.PNG">
+    - <img width="600" alt="usage_df" src="Resources\Images\high_low_bills_csv.PNG">
